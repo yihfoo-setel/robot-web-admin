@@ -1,0 +1,4 @@
+test_admin_user:
+    email_address: automation_setel_admin@email.com
+    email_password: SuperSecretKeyPassword@123
+    namespace: setel-admins

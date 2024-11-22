@@ -1,0 +1,14 @@
+base_uri:
+    api:
+        dev: https://api-dev.setel.com/api
+        staging: https://api-staging.setel.com/api
+    web_admin:
+        dev: https://dev-admin.setel.my
+        staging: https://staging-admin.setel.my
+    web_dashboard:
+        dev: https://dev-dashboard.setel.my
+        staging: https://staging-dashboard.setel.my
+
+# Also known as api-accounts
+idp:
+    login: idp/admin/auth/login
