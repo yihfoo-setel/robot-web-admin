@@ -9,3 +9,7 @@ Successful login to web-dashboard
     [tags]  Trial
     Init
     Login With Username and Password
+
+Successful request web-admin access token
+    Init
+    Get And Save New Session
