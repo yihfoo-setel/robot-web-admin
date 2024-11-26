@@ -3,7 +3,10 @@ Requirements:
 Python v3.11.10
 NodeJS v18.20.4 or later
 
-Run:
-`pip install -r requirements.txt`
+Create the virtual environment: `python3.11 -m venv .venv`
 
-Open up venv then setup rfbrowser with `rfbrowser init`.
+Install dependencies: `pip install -r requirements.txt`
+
+Open the venv: `source .venv/bin/activate`
+
+Open up venv then setup rfbrowser with `rfbrowser init`
