@@ -14,6 +14,9 @@ with open(os.path.join(THISFILEDIR, 'Users.yaml'), 'r') as f:
 
 Base_Env = os.environ['base_env'] if os.environ['base_env'] else "staging"
 
+def get_current_env():
+	return Base_Env
+
 def get_base_uri_for_api():
 	return Uri["base_uri"]["api"][Base_Env]
 
